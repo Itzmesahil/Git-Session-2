@@ -1,0 +1,12 @@
+git init
+git status 
+git clone << To clone the hole Repository
+git push
+git pull  << To get fetch on a particular Branch
+git fetch << To fetch the whole branch
+
+Delete old Remote url
+git remote set-url --delete origin https://github.com/Itzmesahil/Git-Practise.git
+
+To push create a PAT and add a URL
+git remote set-url --add origin https://PAT@github.com/Itzmesahil/Git-Practise.git
